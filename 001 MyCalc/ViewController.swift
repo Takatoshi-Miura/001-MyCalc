@@ -101,254 +101,67 @@ class ViewController: UIViewController {
     
     //「1」ボタンをタップした時の処理
     @IBAction func tap1Button(_ sender: Any) {
-        // 算術演算子フィールドに符号がなければ金額フィールド(左)に入力
-        if arithmeticOperatorField.text == "" {
-            // 金額表示フィールド(左)の文字列の末尾に「1」を追加
-            let value:String = priceFieldLeft.text! + "1"
-           
-            // 整数型に変換することで先頭の0を削除する
-            if let price = Int(value) {
-                priceFieldLeft.text = "\(price)"
-            }
-        } else {
-            // 金額表示フィールド(右)の文字列の末尾に「1」を追加
-            let value:String = priceFieldRight.text! + "1"
-            
-            // 整数型に変換することで先頭の0を削除する
-            if let price = Int(value) {
-                priceFieldRight.text = "\(price)"
-            }
-        }
+        inPutNumber(buttonName: "1")
     }
     
     
     //「2」ボタンをタップした時の処理
     @IBAction func tap2Button(_ sender: Any) {
-       // 算術演算子フィールドに符号がなければ金額フィールド(左)に入力
-        if arithmeticOperatorField.text == "" {
-            // 金額表示フィールド(左)の文字列の末尾に「2」を追加
-            let value:String = priceFieldLeft.text! + "2"
-           
-            // 整数型に変換することで先頭の0を削除する
-            if let price = Int(value) {
-                priceFieldLeft.text = "\(price)"
-            }
-        } else {
-            // 金額表示フィールド(右)の文字列の末尾に「2」を追加
-            let value:String = priceFieldRight.text! + "2"
-            
-            // 整数型に変換することで先頭の0を削除する
-            if let price = Int(value) {
-                priceFieldRight.text = "\(price)"
-            }
-        }
+        inPutNumber(buttonName: "2")
     }
     
     
     //「3」ボタンをタップした時の処理
     @IBAction func tap3Button(_ sender: Any) {
-        // 算術演算子フィールドに符号がなければ金額フィールド(左)に入力
-        if arithmeticOperatorField.text == "" {
-            // 金額表示フィールド(左)の文字列の末尾に「3」を追加
-            let value:String = priceFieldLeft.text! + "3"
-           
-            // 整数型に変換することで先頭の0を削除する
-            if let price = Int(value) {
-                priceFieldLeft.text = "\(price)"
-            }
-        } else {
-            // 金額表示フィールド(右)の文字列の末尾に「3」を追加
-            let value:String = priceFieldRight.text! + "3"
-            
-            // 整数型に変換することで先頭の0を削除する
-            if let price = Int(value) {
-                priceFieldRight.text = "\(price)"
-            }
-        }
+        inPutNumber(buttonName: "3")
     }
     
     
     //「4」ボタンをタップした時の処理
     @IBAction func tap4Button(_ sender: Any) {
-        // 算術演算子フィールドに符号がなければ金額フィールド(左)に入力
-        if arithmeticOperatorField.text == "" {
-            // 金額表示フィールド(左)の文字列の末尾に「4」を追加
-            let value:String = priceFieldLeft.text! + "4"
-           
-            // 整数型に変換することで先頭の0を削除する
-            if let price = Int(value) {
-                priceFieldLeft.text = "\(price)"
-            }
-        } else {
-            // 金額表示フィールド(右)の文字列の末尾に「4」を追加
-            let value:String = priceFieldRight.text! + "4"
-            
-            // 整数型に変換することで先頭の0を削除する
-            if let price = Int(value) {
-                priceFieldRight.text = "\(price)"
-            }
-        }
+        inPutNumber(buttonName: "4")
     }
     
     
     //「5」ボタンをタップした時の処理
     @IBAction func tap5Button(_ sender: Any) {
-        // 算術演算子フィールドに符号がなければ金額フィールド(左)に入力
-        if arithmeticOperatorField.text == "" {
-            // 金額表示フィールド(左)の文字列の末尾に「5」を追加
-            let value:String = priceFieldLeft.text! + "5"
-           
-            // 整数型に変換することで先頭の0を削除する
-            if let price = Int(value) {
-                priceFieldLeft.text = "\(price)"
-            }
-        } else {
-            // 金額表示フィールド(右)の文字列の末尾に「5」を追加
-            let value:String = priceFieldRight.text! + "5"
-            
-            // 整数型に変換することで先頭の0を削除する
-            if let price = Int(value) {
-                priceFieldRight.text = "\(price)"
-            }
-        }
+        inPutNumber(buttonName: "5")
     }
     
     
     //「6」ボタンをタップした時の処理
     @IBAction func tap6Button(_ sender: Any) {
-        // 算術演算子フィールドに符号がなければ金額フィールド(左)に入力
-        if arithmeticOperatorField.text == "" {
-            // 金額表示フィールド(左)の文字列の末尾に「6」を追加
-            let value:String = priceFieldLeft.text! + "6"
-           
-            // 整数型に変換することで先頭の0を削除する
-            if let price = Int(value) {
-                priceFieldLeft.text = "\(price)"
-            }
-        } else {
-            // 金額表示フィールド(右)の文字列の末尾に「6」を追加
-            let value:String = priceFieldRight.text! + "6"
-            
-            // 整数型に変換することで先頭の0を削除する
-            if let price = Int(value) {
-                priceFieldRight.text = "\(price)"
-            }
-        }
+        inPutNumber(buttonName: "6")
     }
     
     
     //「7」ボタンをタップした時の処理
     @IBAction func tap7Button(_ sender: Any) {
-        // 算術演算子フィールドに符号がなければ金額フィールド(左)に入力
-        if arithmeticOperatorField.text == "" {
-            // 金額表示フィールド(左)の文字列の末尾に「7」を追加
-            let value:String = priceFieldLeft.text! + "7"
-           
-            // 整数型に変換することで先頭の0を削除する
-            if let price = Int(value) {
-                priceFieldLeft.text = "\(price)"
-            }
-        } else {
-            // 金額表示フィールド(右)の文字列の末尾に「7」を追加
-            let value:String = priceFieldRight.text! + "7"
-            
-            // 整数型に変換することで先頭の0を削除する
-            if let price = Int(value) {
-                priceFieldRight.text = "\(price)"
-            }
-        }
+        inPutNumber(buttonName: "7")
     }
     
     
     //「8」ボタンをタップした時の処理
     @IBAction func tap8Button(_ sender: Any) {
-        // 算術演算子フィールドに符号がなければ金額フィールド(左)に入力
-        if arithmeticOperatorField.text == "" {
-            // 金額表示フィールド(左)の文字列の末尾に「8」を追加
-            let value:String = priceFieldLeft.text! + "8"
-           
-            // 整数型に変換することで先頭の0を削除する
-            if let price = Int(value) {
-                priceFieldLeft.text = "\(price)"
-            }
-        } else {
-            // 金額表示フィールド(右)の文字列の末尾に「8」を追加
-            let value:String = priceFieldRight.text! + "8"
-            
-            // 整数型に変換することで先頭の0を削除する
-            if let price = Int(value) {
-                priceFieldRight.text = "\(price)"
-            }
-        }
+        inPutNumber(buttonName: "8")
     }
     
     
     //「9」ボタンをタップした時の処理
     @IBAction func tap9Button(_ sender: Any) {
-        // 算術演算子フィールドに符号がなければ金額フィールド(左)に入力
-        if arithmeticOperatorField.text == "" {
-            // 金額表示フィールド(左)の文字列の末尾に「9」を追加
-            let value:String = priceFieldLeft.text! + "9"
-           
-            // 整数型に変換することで先頭の0を削除する
-            if let price = Int(value) {
-                priceFieldLeft.text = "\(price)"
-            }
-        } else {
-            // 金額表示フィールド(右)の文字列の末尾に「9」を追加
-            let value:String = priceFieldRight.text! + "9"
-            
-            // 整数型に変換することで先頭の0を削除する
-            if let price = Int(value) {
-                priceFieldRight.text = "\(price)"
-            }
-        }
+        inPutNumber(buttonName: "9")
     }
     
     
     //「00」ボタンをタップした時の処理
     @IBAction func tap00Button(_ sender: Any) {
-        // 算術演算子フィールドに符号がなければ金額フィールド(左)に入力
-        if arithmeticOperatorField.text == "" {
-            // 金額表示フィールド(左)の文字列の末尾に「00」を追加
-            let value:String = priceFieldLeft.text! + "00"
-           
-            // 整数型に変換することで先頭の0を削除する
-            if let price = Int(value) {
-                priceFieldLeft.text = "\(price)"
-            }
-        } else {
-            // 金額表示フィールド(右)の文字列の末尾に「00」を追加
-            let value:String = priceFieldRight.text! + "00"
-            
-            // 整数型に変換することで先頭の0を削除する
-            if let price = Int(value) {
-                priceFieldRight.text = "\(price)"
-            }
-        }
+        inPutNumber(buttonName: "00")
     }
     
     
     //「0」ボタンをタップした時の処理
     @IBAction func tap0Button(_ sender: Any) {
-        // 算術演算子フィールドに符号がなければ金額フィールド(左)に入力
-        if arithmeticOperatorField.text == "" {
-            // 金額表示フィールド(左)の文字列の末尾に「0」を追加
-            let value:String = priceFieldLeft.text! + "0"
-           
-            // 整数型に変換することで先頭の0を削除する
-            if let price = Int(value) {
-                priceFieldLeft.text = "\(price)"
-            }
-        } else {
-            // 金額表示フィールド(右)の文字列の末尾に「0」を追加
-            let value:String = priceFieldRight.text! + "0"
-            
-            // 整数型に変換することで先頭の0を削除する
-            if let price = Int(value) {
-                priceFieldRight.text = "\(price)"
-            }
-        }
+        inPutNumber(buttonName: "0")
     }
     
     
@@ -363,6 +176,29 @@ class ViewController: UIViewController {
         } else {
             // 算術演算子フィールドに符号があり、金額表示フィールド(右)が0以外なら金額表示フィールド(右)をクリア
             priceFieldRight.text! = "0"
+        }
+    }
+    
+    
+    // 金額フィールドに数値を入力するメソッド  ※0と00を区別するため、引数はString型とした
+    func inPutNumber(buttonName:String) {
+        // 算術演算子フィールドに符号がなければ金額フィールド(左)に入力
+        if arithmeticOperatorField.text == "" {
+            // 金額表示フィールド(左)の文字列の末尾にbuttonNumberを追加
+            let value:String = priceFieldLeft.text! + "\(buttonName)"
+           
+            // 整数型に変換することで先頭の0を削除する
+            if let price = Int(value) {
+                priceFieldLeft.text = "\(price)"
+            }
+        } else {
+            // 金額表示フィールド(右)の文字列の末尾にbuttonNumberを追加
+            let value:String = priceFieldRight.text! + "\(buttonName)"
+            
+            // 整数型に変換することで先頭の0を削除する
+            if let price = Int(value) {
+                priceFieldRight.text = "\(price)"
+            }
         }
     }
     
