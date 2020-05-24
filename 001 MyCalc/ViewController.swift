@@ -101,67 +101,67 @@ class ViewController: UIViewController {
     
     //「1」ボタンをタップした時の処理
     @IBAction func tap1Button(_ sender: Any) {
-        inPutNumber(buttonName: "1")
+        inputNumber(buttonName: "1")
     }
     
     
     //「2」ボタンをタップした時の処理
     @IBAction func tap2Button(_ sender: Any) {
-        inPutNumber(buttonName: "2")
+        inputNumber(buttonName: "2")
     }
     
     
     //「3」ボタンをタップした時の処理
     @IBAction func tap3Button(_ sender: Any) {
-        inPutNumber(buttonName: "3")
+        inputNumber(buttonName: "3")
     }
     
     
     //「4」ボタンをタップした時の処理
     @IBAction func tap4Button(_ sender: Any) {
-        inPutNumber(buttonName: "4")
+        inputNumber(buttonName: "4")
     }
     
     
     //「5」ボタンをタップした時の処理
     @IBAction func tap5Button(_ sender: Any) {
-        inPutNumber(buttonName: "5")
+        inputNumber(buttonName: "5")
     }
     
     
     //「6」ボタンをタップした時の処理
     @IBAction func tap6Button(_ sender: Any) {
-        inPutNumber(buttonName: "6")
+        inputNumber(buttonName: "6")
     }
     
     
     //「7」ボタンをタップした時の処理
     @IBAction func tap7Button(_ sender: Any) {
-        inPutNumber(buttonName: "7")
+        inputNumber(buttonName: "7")
     }
     
     
     //「8」ボタンをタップした時の処理
     @IBAction func tap8Button(_ sender: Any) {
-        inPutNumber(buttonName: "8")
+        inputNumber(buttonName: "8")
     }
     
     
     //「9」ボタンをタップした時の処理
     @IBAction func tap9Button(_ sender: Any) {
-        inPutNumber(buttonName: "9")
+        inputNumber(buttonName: "9")
     }
     
     
     //「00」ボタンをタップした時の処理
     @IBAction func tap00Button(_ sender: Any) {
-        inPutNumber(buttonName: "00")
+        inputNumber(buttonName: "00")
     }
     
     
     //「0」ボタンをタップした時の処理
     @IBAction func tap0Button(_ sender: Any) {
-        inPutNumber(buttonName: "0")
+        inputNumber(buttonName: "0")
     }
     
     
@@ -181,7 +181,7 @@ class ViewController: UIViewController {
     
     
     // 金額フィールドに数値を入力するメソッド  ※0と00を区別するため、引数はString型とした
-    func inPutNumber(buttonName:String) {
+    func inputNumber(buttonName:String) {
         // 算術演算子フィールドに符号がなければ金額フィールド(左)に入力
         if arithmeticOperatorField.text == "" {
             // 金額表示フィールド(左)の文字列の末尾にbuttonNumberを追加
